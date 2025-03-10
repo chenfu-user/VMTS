@@ -1,0 +1,16 @@
+
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov26_00-20-20_/model_21300.pt
+Traceback (most recent call last):
+  File "scripts/train.py", line 47, in <module>
+    train(args)
+  File "scripts/train.py", line 42, in train
+    ppo_runner, train_cfg = task_registry.make_alg_runner(env=env, name=args.task, args=args)
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/utils/task_registry.py", line 154, in make_alg_runner
+    runner.load(resume_path)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/runners/on_policy_runner.py", line 540, in load
+    self.alg.actor_critic.load_state_dict(loaded_dict["model_state_dict"])
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1667, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for ActorCriticVae:
+	size mismatch for critic.0.weight: copying a param with shape torch.Size([512, 214]) from checkpoint, the shape in current model is torch.Size([512, 215]).
+	size mismatch for critic_encoder.0.weight: copying a param with shape torch.Size([64, 182]) from checkpoint, the shape in current model is torch.Size([64, 183]).

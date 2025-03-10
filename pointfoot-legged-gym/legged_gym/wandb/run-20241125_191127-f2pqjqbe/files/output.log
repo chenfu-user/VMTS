@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "scripts/train.py", line 47, in <module>
+    train(args)
+  File "scripts/train.py", line 43, in train
+    ppo_runner.learn(num_learning_iterations=train_cfg.runner.max_iterations, init_at_random_ep_len=True)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/runners/on_policy_runner.py", line 184, in learn_RL
+    mean_value_loss, mean_surrogate_loss, mean_vae_loss = self.alg.update()
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/algorithms/ppo.py", line 180, in update
+    for (
+ValueError: not enough values to unpack (expected 13, got 12)

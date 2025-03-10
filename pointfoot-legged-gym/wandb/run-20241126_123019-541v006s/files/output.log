@@ -1,0 +1,18 @@
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov26_10-58-01_/model_22400.pt
+Exported policy as jit script to:  /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/exported/policies
+Traceback (most recent call last):
+  File "legged_gym/scripts/play.py", line 176, in <module>
+    play(args)
+  File "legged_gym/scripts/play.py", line 125, in play
+    actions = policy_depth(combined_obs.detach(), infos["depth"].detach())
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/modules/actor_critic_vae.py", line 249, in act_depth_inference
+    actions_mean = self.stu_actor(actor_input)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x95 and 63x512)

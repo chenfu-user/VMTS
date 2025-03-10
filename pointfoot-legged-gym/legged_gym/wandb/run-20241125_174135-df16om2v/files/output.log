@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "scripts/train.py", line 47, in <module>
+    train(args)
+  File "scripts/train.py", line 43, in train
+    ppo_runner.learn(num_learning_iterations=train_cfg.runner.max_iterations, init_at_random_ep_len=True)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/runners/on_policy_runner.py", line 296, in learn_vision
+    coder_loss = self.alg.update_coder(stu_coder, critic_coder)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/algorithms/ppo.py", line 171, in update_coder
+    encoder_loss.backward()
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn

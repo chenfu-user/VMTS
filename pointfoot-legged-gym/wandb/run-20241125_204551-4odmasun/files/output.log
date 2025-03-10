@@ -1,0 +1,12 @@
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov25_19-55-13_/model_2450.pt
+Exported policy as jit script to:  /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/exported/policies
+Average rewards per second:
+Total number of episodes: 0
+Traceback (most recent call last):
+  File "legged_gym/scripts/play.py", line 177, in <module>
+    play(args)
+  File "legged_gym/scripts/play.py", line 129, in play
+    obs, critic_obs, rews, dones, infos = env.step(actions.detach())
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 354, in step
+    self.gym.simulate(self.sim)
+KeyboardInterrupt

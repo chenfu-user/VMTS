@@ -1,0 +1,14 @@
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov25_19-55-13_/model_2200.pt
+Exported policy as jit script to:  /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/exported/policies
+Traceback (most recent call last):
+  File "legged_gym/scripts/play.py", line 176, in <module>
+    play(args)
+  File "legged_gym/scripts/play.py", line 128, in play
+    obs, critic_obs, rews, dones, infos = env.step(actions.detach())
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 357, in step
+    self.post_physics_step()
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 454, in post_physics_step
+    self._draw_debug_vis()
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 1575, in _draw_debug_vis
+    if not self.terrain.cfg.measure_heights_actor and not self.terrain.cfg.measure_heights_critic:
+AttributeError: 'PointFoot' object has no attribute 'terrain'

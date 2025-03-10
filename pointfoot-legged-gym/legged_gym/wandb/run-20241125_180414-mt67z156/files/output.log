@@ -1,0 +1,137 @@
+################################################################################
+                     [1m Learning iteration 0/100000 
+                       Computation: 265 steps/s (collection: 22.906s, learning 0.243s)
+             Mean action noise std: 1.00
+               Mean reward (total): -2.87
+               Mean episode length: 43.28
+                Depth encoder loss: 0.0000
+                  Depth actor loss: 0.1442
+                        coder_loss: 0.0000
+--------------------------------------------------------------------------------
+  Mean episode rew_above_vel_range: -0.0209
+      Mean episode rew_action_rate: -0.0000
+       Mean episode rew_ang_vel_xy: -0.0115
+      Mean episode rew_base_height: -0.0269
+        Mean episode rew_collision: -0.1078
+          Mean episode rew_dof_acc: -0.0029
+    Mean episode rew_feet_air_time: -0.0144
+ Mean episode rew_feet_alignment_x: -0.0004
+ Mean episode rew_feet_alignment_y: -0.0003
+Mean episode rew_feet_contact_forces: -0.0005
+Mean episode rew_feet_contact_number: 0.0002
+    Mean episode rew_feet_distance: -0.0182
+        Mean episode rew_lin_vel_z: -0.0046
+           Mean episode rew_no_fly: -0.0224
+      Mean episode rew_orientation: -0.0679
+         Mean episode rew_survival: 0.0679
+Mean episode rew_target_feet_height: -0.0065
+    Mean episode rew_torque_limits: 0.0000
+          Mean episode rew_torques: -0.0007
+ Mean episode rew_tracking_ang_vel: 0.0394
+Mean episode rew_tracking_base_height: 0.0246
+ Mean episode rew_tracking_lin_vel: 0.0657
+Mean episode rew_tracking_orientation: 0.0260
+Mean episode rew_unbalance_feet_air_time: -0.0132
+Mean episode rew_unbalance_feet_height: -0.0005
+        Mean episode terrain_level: 1.9133
+--------------------------------------------------------------------------------
+                   Total timesteps: 6144
+                    Iteration time: 23.15s
+                        Total time: 23.15s
+                               ETA: 38582 mins 26.2 s
+################################################################################
+                     [1m Learning iteration 1/100000 
+                       Computation: 274 steps/s (collection: 22.287s, learning 0.115s)
+             Mean action noise std: 1.00
+               Mean reward (total): -1.83
+               Mean episode length: 43.51
+                Depth encoder loss: 0.0000
+                  Depth actor loss: 0.1304
+                        coder_loss: 0.0000
+--------------------------------------------------------------------------------
+  Mean episode rew_above_vel_range: -0.0275
+      Mean episode rew_action_rate: -0.0000
+       Mean episode rew_ang_vel_xy: -0.0144
+      Mean episode rew_base_height: -0.0239
+        Mean episode rew_collision: -0.1281
+          Mean episode rew_dof_acc: -0.0027
+    Mean episode rew_feet_air_time: -0.0185
+ Mean episode rew_feet_alignment_x: -0.0005
+ Mean episode rew_feet_alignment_y: -0.0004
+Mean episode rew_feet_contact_forces: -0.0005
+Mean episode rew_feet_contact_number: 0.0004
+    Mean episode rew_feet_distance: -0.0287
+        Mean episode rew_lin_vel_z: -0.0054
+           Mean episode rew_no_fly: -0.0267
+      Mean episode rew_orientation: -0.0871
+         Mean episode rew_survival: 0.0837
+Mean episode rew_target_feet_height: -0.0028
+    Mean episode rew_torque_limits: 0.0000
+          Mean episode rew_torques: -0.0008
+ Mean episode rew_tracking_ang_vel: 0.0412
+Mean episode rew_tracking_base_height: 0.0323
+ Mean episode rew_tracking_lin_vel: 0.0634
+Mean episode rew_tracking_orientation: 0.0278
+Mean episode rew_unbalance_feet_air_time: -0.0192
+Mean episode rew_unbalance_feet_height: -0.0008
+        Mean episode terrain_level: 0.5055
+--------------------------------------------------------------------------------
+                   Total timesteps: 12288
+                    Iteration time: 22.40s
+                        Total time: 45.55s
+                               ETA: 37958 mins 26.1 s
+################################################################################
+                     [1m Learning iteration 2/100000 
+                       Computation: 279 steps/s (collection: 21.878s, learning 0.114s)
+             Mean action noise std: 1.00
+               Mean reward (total): -2.30
+               Mean episode length: 41.19
+                Depth encoder loss: 0.0000
+                  Depth actor loss: 0.1128
+                        coder_loss: 0.0000
+--------------------------------------------------------------------------------
+  Mean episode rew_above_vel_range: -0.0275
+      Mean episode rew_action_rate: -0.0000
+       Mean episode rew_ang_vel_xy: -0.0141
+      Mean episode rew_base_height: -0.0236
+        Mean episode rew_collision: -0.1143
+          Mean episode rew_dof_acc: -0.0025
+    Mean episode rew_feet_air_time: -0.0172
+ Mean episode rew_feet_alignment_x: -0.0005
+ Mean episode rew_feet_alignment_y: -0.0004
+Mean episode rew_feet_contact_forces: -0.0005
+Mean episode rew_feet_contact_number: 0.0002
+    Mean episode rew_feet_distance: -0.0264
+        Mean episode rew_lin_vel_z: -0.0052
+           Mean episode rew_no_fly: -0.0262
+      Mean episode rew_orientation: -0.0863
+         Mean episode rew_survival: 0.0845
+Mean episode rew_target_feet_height: -0.0028
+    Mean episode rew_torque_limits: 0.0000
+          Mean episode rew_torques: -0.0008
+ Mean episode rew_tracking_ang_vel: 0.0417
+Mean episode rew_tracking_base_height: 0.0327
+ Mean episode rew_tracking_lin_vel: 0.0623
+Mean episode rew_tracking_orientation: 0.0283
+Mean episode rew_unbalance_feet_air_time: -0.0183
+Mean episode rew_unbalance_feet_height: -0.0007
+        Mean episode terrain_level: 0.0255
+--------------------------------------------------------------------------------
+                   Total timesteps: 18432
+                    Iteration time: 21.99s
+                        Total time: 67.54s
+                               ETA: 37522 mins 48.7 s
+Traceback (most recent call last):
+  File "scripts/train.py", line 47, in <module>
+    train(args)
+  File "scripts/train.py", line 43, in train
+    ppo_runner.learn(num_learning_iterations=train_cfg.runner.max_iterations, init_at_random_ep_len=True)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/runners/on_policy_runner.py", line 289, in learn_vision
+    else:
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 357, in step
+    self.post_physics_step()
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 442, in post_physics_step
+    self.update_depth_buffer()
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 186, in update_depth_buffer
+    self.gym.start_access_image_tensors(self.sim)
+KeyboardInterrupt

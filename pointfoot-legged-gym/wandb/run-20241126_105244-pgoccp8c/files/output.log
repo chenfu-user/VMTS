@@ -1,0 +1,16 @@
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov26_00-20-20_/model_21300.pt
+Exported policy as jit script to:  /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/exported/policies
+Average rewards per second:
+Total number of episodes: 0
+Traceback (most recent call last):
+  File "legged_gym/scripts/play.py", line 172, in <module>
+    play(args)
+  File "legged_gym/scripts/play.py", line 124, in play
+    obs, critic_obs, rews, dones, infos = env.step(actions.detach())
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 357, in step
+    self.post_physics_step()
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/envs/pointfoot/point_foot.py", line 425, in post_physics_step
+    self.terrain_type[:] = self.terrain.get_terrain_type(self.base_pos).to(self.device)
+  File "/home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/utils/terrain.py", line 94, in get_terrain_type
+    valid_mask = (i >= 0) & (i < self.cfg.num_rows) & (j >= 0) & (j < self.cfg.num_cols)
+KeyboardInterrupt

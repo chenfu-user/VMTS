@@ -1,0 +1,1100 @@
+2024-11-26 10:18:58,010 INFO    StreamThr :809704 [internal.py:wandb_internal():90] W&B internal server running at pid: 809704, started at: 2024-11-26 10:18:58.009969
+2024-11-26 10:18:58,013 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: status
+2024-11-26 10:18:58,014 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: status
+2024-11-26 10:18:58,014 DEBUG   SenderThread:809704 [sender.py:send():302] send: header
+2024-11-26 10:18:58,015 INFO    WriterThread:809704 [datastore.py:open_for_write():75] open: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/run-vllyv69s.wandb
+2024-11-26 10:18:58,067 DEBUG   SenderThread:809704 [sender.py:send():302] send: run
+2024-11-26 10:19:02,184 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: check_version
+2024-11-26 10:19:02,186 INFO    SenderThread:809704 [dir_watcher.py:__init__():216] watching files in: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files
+2024-11-26 10:19:02,186 INFO    SenderThread:809704 [sender.py:_start_run_threads():913] run started: vllyv69s with start time 1732587538.007065
+2024-11-26 10:19:02,186 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:19:02,186 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:19:02,187 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: check_version
+2024-11-26 10:19:03,189 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:19:04,656 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: run_start
+2024-11-26 10:19:04,688 DEBUG   HandlerThread:809704 [meta.py:__init__():35] meta init
+2024-11-26 10:19:04,688 DEBUG   HandlerThread:809704 [meta.py:__init__():50] meta init done
+2024-11-26 10:19:04,688 DEBUG   HandlerThread:809704 [meta.py:probe():216] probe
+2024-11-26 10:19:04,696 DEBUG   HandlerThread:809704 [meta.py:_setup_git():206] setup git
+2024-11-26 10:19:04,716 DEBUG   HandlerThread:809704 [meta.py:_setup_git():213] setup git done
+2024-11-26 10:19:04,716 DEBUG   HandlerThread:809704 [meta.py:_save_pip():54] save pip
+2024-11-26 10:19:04,716 DEBUG   HandlerThread:809704 [meta.py:_save_pip():68] save pip done
+2024-11-26 10:19:04,716 DEBUG   HandlerThread:809704 [meta.py:_save_conda():75] save conda
+2024-11-26 10:19:05,191 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/requirements.txt
+2024-11-26 10:19:05,191 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/conda-environment.yaml
+2024-11-26 10:19:09,139 DEBUG   HandlerThread:809704 [meta.py:_save_conda():85] save conda done
+2024-11-26 10:19:09,139 DEBUG   HandlerThread:809704 [meta.py:probe():254] probe done
+2024-11-26 10:19:09,151 DEBUG   SenderThread:809704 [sender.py:send():302] send: files
+2024-11-26 10:19:09,151 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2024-11-26 10:19:09,154 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:19:09,154 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:19:09,191 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/conda-environment.yaml
+2024-11-26 10:19:09,192 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-metadata.json
+2024-11-26 10:19:11,170 DEBUG   SenderThread:809704 [sender.py:send():302] send: telemetry
+2024-11-26 10:19:11,171 DEBUG   SenderThread:809704 [sender.py:send():302] send: telemetry
+2024-11-26 10:19:11,171 DEBUG   SenderThread:809704 [sender.py:send():302] send: telemetry
+2024-11-26 10:19:11,192 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:19:13,192 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:19:13,373 INFO    Thread-16 :809704 [upload_job.py:push():138] Uploaded file /tmp/tmpd2_6wuutwandb/vmu245if-wandb-metadata.json
+2024-11-26 10:19:27,575 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:19:27,576 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:19:32,200 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/config.yaml
+2024-11-26 10:19:33,094 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:19:33,311 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:19:35,201 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:19:45,855 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:19:45,855 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:19:55,204 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:19:55,205 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:19:55,205 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:19:55,206 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:19:55,207 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:19:58,209 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:20:03,509 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:20:04,230 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:20:04,231 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:20:17,074 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:20:17,075 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:20:17,075 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:20:17,076 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:20:17,216 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:20:20,218 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:20:22,521 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:20:22,521 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:20:33,936 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:20:38,976 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:20:38,977 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:20:38,977 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:20:38,978 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:20:39,224 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:20:40,793 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:20:40,794 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:20:42,226 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:20:59,106 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:20:59,106 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:21:01,112 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:21:01,128 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:21:01,129 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:21:01,130 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:21:01,233 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:21:04,235 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:21:04,355 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:21:16,160 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:21:16,161 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:21:22,588 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:21:22,589 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:21:22,589 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:21:22,589 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:21:23,244 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:21:24,244 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:21:34,078 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:21:34,079 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:21:36,074 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:21:44,009 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:21:44,009 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:21:44,010 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:21:44,011 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:21:44,253 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:21:46,254 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:21:51,940 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:21:51,940 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:22:05,161 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:22:05,460 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:22:05,461 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:22:05,461 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:22:05,462 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:22:06,262 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:22:08,263 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:22:09,840 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:22:09,840 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:22:27,082 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:22:27,083 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:22:27,083 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:22:27,083 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:22:27,270 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:22:27,893 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:22:27,893 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:22:30,272 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:22:35,586 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:22:45,865 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:22:45,866 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:22:48,745 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:22:48,746 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:22:48,746 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:22:48,746 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:22:49,279 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:22:50,280 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:23:03,861 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:23:03,862 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:23:06,030 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:23:10,172 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:23:10,173 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:23:10,174 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:23:10,175 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:23:10,288 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:23:12,289 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:23:21,749 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:23:21,750 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:23:31,669 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:23:31,669 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:23:31,669 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:23:31,670 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:23:32,297 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:23:34,297 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:23:36,415 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:23:39,653 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:23:39,653 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:23:53,359 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:23:53,359 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:23:53,360 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:23:53,360 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:23:54,305 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:23:56,306 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:23:57,721 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:23:57,721 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:24:06,817 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:24:14,743 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:24:14,744 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:24:14,945 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:24:16,802 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:24:16,802 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:24:16,803 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:24:17,314 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:24:18,314 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:24:32,749 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:24:32,750 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:24:36,496 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:24:36,497 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:24:36,497 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:24:36,497 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:24:37,253 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:24:37,322 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:24:38,322 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:24:50,631 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:24:50,631 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:24:57,998 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:24:57,999 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:24:57,999 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:24:58,001 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:24:58,330 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:25:00,332 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:25:07,660 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:25:08,711 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:25:08,711 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:25:19,543 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:25:19,543 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:25:19,544 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:25:19,544 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:25:20,340 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:25:22,340 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:25:26,614 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:25:26,615 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:25:38,082 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:25:41,113 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:25:41,113 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:25:41,114 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:25:41,114 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:25:41,348 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:25:42,349 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:25:44,585 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:25:44,586 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:26:02,661 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:26:02,661 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:26:02,870 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:26:04,650 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:26:04,651 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:26:04,652 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:26:05,358 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:26:06,358 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:26:08,477 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:26:19,965 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:26:19,966 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:26:24,778 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:26:24,778 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:26:24,779 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:26:24,779 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:26:25,366 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:26:26,366 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:26:38,215 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:26:38,215 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:26:40,310 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:26:46,580 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:26:46,581 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:26:46,581 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:26:46,581 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:26:47,374 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:26:48,374 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:26:56,449 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:26:56,450 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:27:08,275 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:27:08,275 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:27:08,276 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:27:08,276 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:27:08,383 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:27:09,325 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:27:10,384 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:27:14,501 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:27:14,502 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:27:30,486 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:27:30,487 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:27:30,487 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:27:30,488 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:27:31,391 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:27:32,307 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:27:32,307 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:27:32,391 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:27:39,725 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:27:50,071 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:27:50,071 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:27:52,980 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:27:52,980 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:27:52,981 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:27:52,981 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:27:53,398 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:27:54,399 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:28:08,225 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:28:08,226 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:28:10,314 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:28:14,658 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:28:14,658 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:28:14,659 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:28:14,659 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:28:15,407 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:28:16,407 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:28:26,573 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:28:26,574 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:28:36,810 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:28:36,810 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:28:36,811 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:28:36,811 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:28:37,415 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:28:38,416 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:28:40,586 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:28:44,870 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:28:44,871 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:28:58,883 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:28:58,884 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:28:58,884 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:28:58,885 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:28:59,424 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:29:00,425 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:29:02,636 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:29:02,636 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:29:10,987 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:29:20,953 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:29:20,954 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:29:21,175 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:29:23,095 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:29:23,096 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:29:23,097 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:29:23,433 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:29:24,433 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:29:38,351 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:29:38,352 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:29:41,415 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:29:43,112 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:29:43,113 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:29:43,113 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:29:43,113 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:29:43,440 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:29:44,441 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:29:56,012 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:29:56,012 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:30:05,366 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:30:05,367 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:30:05,367 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:30:05,367 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:30:05,448 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:30:06,448 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:30:11,860 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:30:12,000 WARNING FileStreamThread:809704 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/fuchen_humanoid/pointfoot-legged-gym-legged_gym_scripts/vllyv69s/file_stream (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2635)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x7fab5b4bc2e0>>, args: ('https://api.wandb.ai/files/fuchen_humanoid/pointfoot-legged-gym-legged_gym_scripts/vllyv69s/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"Episode_rew/rew_above_vel_range": -0.019775597378611565, "Episode_rew/rew_action_rate": -0.00025222799740731716, "Episode_rew/rew_ang_vel_xy": -0.020499199628829956, "Episode_rew/rew_base_height": -0.02694563940167427, "Episode_rew/rew_collision": -0.2582513391971588, "Episode_rew/rew_dof_acc": -0.002908620284870267, "Episode_rew/rew_feet_air_time": -0.0219813771545887, "Episode_rew/rew_feet_alignment_x": -0.0014401066582649946, "Episode_rew/rew_feet_alignment_y": -0.0008884988492354751, "Episode_rew/rew_feet_contact_forces": -0.0015869626076892018, "Episode_rew/rew_feet_contact_number": -0.0011351790744811296, "Episode_rew/rew_feet_distance": -0.03639448806643486, "Episode_rew/rew_lin_vel_z": -0.007085827644914389, "Episode_rew/rew_no_fly": -0.021338075399398804, "Episode_rew/rew_orientation": -0.07975157350301743, "Episode_rew/rew_survival": 0.07720360159873962, "Episode_rew/rew_target_feet_height": -0.0034463631454855204, "Episode_rew/rew_torque_limits": -8.383905765185773e-07, "Episode_rew/rew_torques": -0.001045052777044475, "Episode_rew/rew_tracking_ang_vel": 0.03403254598379135, "Episode_rew/rew_tracking_base_height": 0.027339477092027664, "Episode_rew/rew_tracking_lin_vel": 0.06609105318784714, "Episode_rew/rew_tracking_orientation": 0.029172183945775032, "Episode_rew/rew_unbalance_feet_air_time": -0.022232763469219208, "Episode_rew/rew_unbalance_feet_height": -0.0011394397588446736, "Episode_rew/terrain_level": 0.0, "Loss_depth/depth_encoder": 0, "Loss_depth/depth_actor": 8.732175827026367, "Loss_depth/coder_loss": 6.406338214874268, "Policy/mean_noise_std": 0.6316365003585815, "Perf/total_fps": 280, "Perf/collection time": 21.792583227157593, "Perf/learning_time": 0.12448477745056152, "Train/mean_reward": -5.507488631606102, "Train/mean_episode_length": 39.4, "_timestamp": 1732588183.1119328, "_runtime": 645.1048676967621, "_step": 21328}']}, 'wandb-history.jsonl': {'offset': 27, 'content': ['{"Episode_rew/rew_above_vel_range": -0.020347876474261284, "Episode_rew/rew_action_rate": -0.00029241046286188066, "Episode_rew/rew_ang_vel_xy": -0.02441411092877388, "Episode_rew/rew_base_height": -0.02389339730143547, "Episode_rew/rew_collision": -0.3346133828163147, "Episode_rew/rew_dof_acc": -0.0031627542339265347, "Episode_rew/rew_feet_air_time": -0.019048139452934265, "Episode_rew/rew_feet_alignment_x": -0.002787421690300107, "Episode_rew/rew_feet_alignment_y": -0.0014197606360539794, "Episode_rew/rew_feet_contact_forces": -0.0016067010583356023, "Episode_rew/rew_feet_contact_number": 0.0013489974662661552, "Episode_rew/rew_feet_distance": -0.030320845544338226, "Episode_rew/rew_lin_vel_z": -0.006868696305900812, "Episode_rew/rew_no_fly": -0.019235584884881973, "Episode_rew/rew_orientation": -0.08044420182704926, "Episode_rew/rew_survival": 0.08047284185886383, "Episode_rew/rew_target_feet_height": -0.004254060797393322, "Episode_rew/rew_torque_limits": -3.711348836077377e-05, "Episode_rew/rew_torques": -0.001108693890273571, "Episode_rew/rew_tracking_ang_vel": 0.028593922033905983, "Episode_rew/rew_tracking_base_height": 0.030277932062745094, "Episode_rew/rew_tracking_lin_vel": 0.07014293968677521, "Episode_rew/rew_tracking_orientation": 0.0317603163421154, "Episode_rew/rew_unbalance_feet_air_time": -0.03187155723571777, "Episode_rew/rew_unbalance_feet_height": -0.00209235236980021, "Episode_rew/terrain_level": 0.0, "Loss_depth/depth_encoder": 0, "Loss_depth/depth_actor": 8.720441818237305, "Loss_depth/coder_loss": 6.148953437805176, "Policy/mean_noise_std": 0.6316365003585815, "Perf/total_fps": 275, "Perf/collection time": 22.147159814834595, "Perf/learning_time": 0.12428808212280273, "Train/mean_reward": -6.776043180823326, "Train/mean_episode_length": 40.12, "_timestamp": 1732588161.1742702, "_runtime": 623.1672050952911, "_step": 21327}', '{"Episode_rew/rew_above_vel_range": -0.019775597378611565, "Episode_rew/rew_action_rate": -0.00025222799740731716, "Episode_rew/rew_ang_vel_xy": -0.020499199628829956, "Episode_rew/rew_base_height": -0.02694563940167427, "Episode_rew/rew_collision": -0.2582513391971588, "Episode_rew/rew_dof_acc": -0.002908620284870267, "Episode_rew/rew_feet_air_time": -0.0219813771545887, "Episode_rew/rew_feet_alignment_x": -0.0014401066582649946, "Episode_rew/rew_feet_alignment_y": -0.0008884988492354751, "Episode_rew/rew_feet_contact_forces": -0.0015869626076892018, "Episode_rew/rew_feet_contact_number": -0.0011351790744811296, "Episode_rew/rew_feet_distance": -0.03639448806643486, "Episode_rew/rew_lin_vel_z": -0.007085827644914389, "Episode_rew/rew_no_fly": -0.021338075399398804, "Episode_rew/rew_orientation": -0.07975157350301743, "Episode_rew/rew_survival": 0.07720360159873962, "Episode_rew/rew_target_feet_height": -0.0034463631454855204, "Episode_rew/rew_torque_limits": -8.383905765185773e-07, "Episode_rew/rew_torques": -0.001045052777044475, "Episode_rew/rew_tracking_ang_vel": 0.03403254598379135, "Episode_rew/rew_tracking_base_height": 0.027339477092027664, "Episode_rew/rew_tracking_lin_vel": 0.06609105318784714, "Episode_rew/rew_tracking_orientation": 0.029172183945775032, "Episode_rew/rew_unbalance_feet_air_time": -0.022232763469219208, "Episode_rew/rew_unbalance_feet_height": -0.0011394397588446736, "Episode_rew/terrain_level": 0.0, "Loss_depth/depth_encoder": 0, "Loss_depth/depth_actor": 8.732175827026367, "Loss_depth/coder_loss": 6.406338214874268, "Policy/mean_noise_std": 0.6316365003585815, "Perf/total_fps": 280, "Perf/collection time": 21.792583227157593, "Perf/learning_time": 0.12448477745056152, "Train/mean_reward": -5.507488631606102, "Train/mean_episode_length": 39.4, "_timestamp": 1732588183.1119328, "_runtime": 645.1048676967621, "_step": 21328}']}, 'wandb-events.jsonl': {'offset': 21, 'content': ['{"system.gpu.0.gpu": 88.0, "system.gpu.0.memory": 84.93, "system.gpu.0.memoryAllocated": 79.34, "system.gpu.0.temp": 56.13, "system.gpu.process.0.gpu": 88.0, "system.gpu.process.0.memory": 84.93, "system.gpu.process.0.memoryAllocated": 79.34, "system.gpu.process.0.temp": 56.13, "system.gpu.0.powerWatts": 157.53, "system.gpu.0.powerPercent": 78.76, "system.gpu.process.0.powerWatts": 157.53, "system.gpu.process.0.powerPercent": 78.76, "system.cpu": 2.98, "system.memory": 85.59, "system.disk": 30.5, "system.proc.memory.availableMB": 4597.08, "system.proc.memory.rssMB": 11226.61, "system.proc.memory.percent": 35.19, "system.proc.cpu.threads": 65.0, "system.network.sent": 63264021, "system.network.recv": 123163786, "_wandb": true, "_timestamp": 1732588211.86007, "_runtime": 673.853005}']}, 'output.log': {'offset': 1149, 'content': ['2024-11-26T02:29:43.902396 ################################################################################\n', '2024-11-26T02:29:43.902396                    \x1b[1m Learning iteration 21328/121300 \n', '2024-11-26T02:29:43.902396                        Computation: 280 steps/s (collection: 21.793s, learning 0.124s)\n', '2024-11-26T02:29:43.902396              Mean action noise std: 0.63\n', '2024-11-26T02:29:43.902396                Mean reward (total): -5.51\n', '2024-11-26T02:29:43.902396                Mean episode length: 39.40\n', '2024-11-26T02:29:43.902396                 Depth encoder loss: 0.0000\n', '2024-11-26T02:29:43.902396                   Depth actor loss: 8.7322\n', '2024-11-26T02:29:43.902396                         coder_loss: 6.4063\n', '2024-11-26T02:29:43.902396 --------------------------------------------------------------------------------\n', '2024-11-26T02:29:43.902396   Mean episode rew_above_vel_range: -0.0198\n', '2024-11-26T02:29:43.902396       Mean episode rew_action_rate: -0.0003\n', '2024-11-26T02:29:43.902396        Mean episode rew_ang_vel_xy: -0.0205\n', '2024-11-26T02:29:43.902396       Mean episode rew_base_height: -0.0269\n', '2024-11-26T02:29:43.902396         Mean episode rew_collision: -0.2583\n', '2024-11-26T02:29:43.902396           Mean episode rew_dof_acc: -0.0029\n', '2024-11-26T02:29:43.902396     Mean episode rew_feet_air_time: -0.0220\n', '2024-11-26T02:29:43.902396  Mean episode rew_feet_alignment_x: -0.0014\n', '2024-11-26T02:29:43.902396  Mean episode rew_feet_alignment_y: -0.0009\n', '2024-11-26T02:29:43.902396 Mean episode rew_feet_contact_forces: -0.0016\n', '2024-11-26T02:29:43.902396 Mean episode rew_feet_contact_number: -0.0011\n', '2024-11-26T02:29:43.902396     Mean episode rew_feet_distance: -0.0364\n', '2024-11-26T02:29:43.902396         Mean episode rew_lin_vel_z: -0.0071\n', '2024-11-26T02:29:43.902396            Mean episode rew_no_fly: -0.0213\n', '2024-11-26T02:29:43.902396       Mean episode rew_orientation: -0.0798\n', '2024-11-26T02:29:43.902396          Mean episode rew_survival: 0.0772\n', '2024-11-26T02:29:43.902396 Mean episode rew_target_feet_height: -0.0034\n', '2024-11-26T02:29:43.902396     Mean episode rew_torque_limits: -0.0000\n', '2024-11-26T02:29:43.902396           Mean episode rew_torques: -0.0010\n', '2024-11-26T02:29:43.902396  Mean episode rew_tracking_ang_vel: 0.0340\n', '2024-11-26T02:29:43.902396 Mean episode rew_tracking_base_height: 0.0273\n', '2024-11-26T02:29:43.902396  Mean episode rew_tracking_lin_vel: 0.0661\n', '2024-11-26T02:29:43.902396 Mean episode rew_tracking_orientation: 0.0292\n', '2024-11-26T02:29:43.902396 Mean episode rew_unbalance_feet_air_time: -0.0222\n', '2024-11-26T02:29:43.902396 Mean episode rew_unbalance_feet_height: -0.0011\n', '2024-11-26T02:29:43.902396         Mean episode terrain_level: 0.0000\n', '2024-11-26T02:29:43.902396 --------------------------------------------------------------------------------\n', '2024-11-26T02:29:43.902396                    Total timesteps: 178176\n', '2024-11-26T02:29:43.902396                     Iteration time: 21.92s\n', '2024-11-26T02:29:43.902396                         Total time: 632.38s\n', '2024-11-26T02:29:43.902396                                ETA: 36333 mins 26.3 s\n', '2024-11-26T02:30:05.926586 ################################################################################\n', '2024-11-26T02:30:05.926586                    \x1b[1m Learning iteration 21329/121300 \n', '2024-11-26T02:30:05.926586                        Computation: 276 steps/s (collection: 22.116s, learning 0.119s)\n', '2024-11-26T02:30:05.926586              Mean action noise std: 0.63\n', '2024-11-26T02:30:05.926586                Mean reward (total): -5.64\n', '2024-11-26T02:30:05.926586                Mean episode length: 37.13\n', '2024-11-26T02:30:05.926586                 Depth encoder loss: 0.0000\n', '2024-11-26T02:30:05.926586                   Depth actor loss: 9.0114\n', '2024-11-26T02:30:05.926586                         coder_loss: 6.5367\n', '2024-11-26T02:30:05.926586 --------------------------------------------------------------------------------\n', '2024-11-26T02:30:05.926586   Mean episode rew_above_vel_range: -0.0195\n', '2024-11-26T02:30:05.926586       Mean episode rew_action_rate: -0.0002\n', '2024-11-26T02:30:05.926586        Mean episode rew_ang_vel_xy: -0.0184\n', '2024-11-26T02:30:05.926586       Mean episode rew_base_height: -0.0281\n', '2024-11-26T02:30:05.926586         Mean episode rew_collision: -0.2489\n', '2024-11-26T02:30:05.926586           Mean episode rew_dof_acc: -0.0028\n', '2024-11-26T02:30:05.926586     Mean episode rew_feet_air_time: -0.0205\n', '2024-11-26T02:30:05.926586  Mean episode rew_feet_alignment_x: -0.0010\n', '2024-11-26T02:30:05.926586  Mean episode rew_feet_alignment_y: -0.0007\n', '2024-11-26T02:30:05.926586 Mean episode rew_feet_contact_forces: -0.0016\n', '2024-11-26T02:30:05.926586 Mean episode rew_feet_contact_number: -0.0023\n', '2024-11-26T02:30:05.926586     Mean episode rew_feet_distance: -0.0331\n', '2024-11-26T02:30:05.926586         Mean episode rew_lin_vel_z: -0.0077\n', '2024-11-26T02:30:05.926586            Mean episode rew_no_fly: -0.0196\n', '2024-11-26T02:30:05.926586       Mean episode rew_orientation: -0.0766\n', '2024-11-26T02:30:05.926586          Mean episode rew_survival: 0.0737\n', '2024-11-26T02:30:05.926586 Mean episode rew_target_feet_height: -0.0030\n', '2024-11-26T02:30:05.926586     Mean episode rew_torque_limits: -0.0000\n', '2024-11-26T02:30:05.926586           Mean episode rew_torques: -0.0010\n', '2024-11-26T02:30:05.926586  Mean episode rew_tracking_ang_vel: 0.0349\n', '2024-11-26T02:30:05.926586 Mean episode rew_tracking_base_height: 0.0251\n', '2024-11-26T02:30:05.926586  Mean episode rew_tracking_lin_vel: 0.0613\n', '2024-11-26T02:30:05.926586 Mean episode rew_tracking_orientation: 0.0285\n', '2024-11-26T02:30:05.926586 Mean episode rew_unbalance_feet_air_time: -0.0257\n', '2024-11-26T02:30:05.926586 Mean episode rew_unbalance_feet_height: -0.0012\n', '2024-11-26T02:30:05.926586         Mean episode terrain_level: 0.0000\n', '2024-11-26T02:30:05.926586 --------------------------------------------------------------------------------\n', '2024-11-26T02:30:05.926586                    Total timesteps: 184320\n', '2024-11-26T02:30:05.926586                     Iteration time: 22.23s\n', '2024-11-26T02:30:05.926586                         Total time: 654.61s\n', '2024-11-26T02:30:05.926586                                ETA: 36356 mins 52.4 s\n']}}, 'dropped': 0}}
+2024-11-26 10:30:13,663 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:30:13,663 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:30:27,515 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:30:27,515 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:30:27,516 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:30:27,516 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:30:28,456 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:30:28,456 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:30:32,103 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:30:32,103 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:30:42,285 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:30:49,643 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:30:49,644 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:30:49,868 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:30:50,920 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:30:50,921 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:30:50,922 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:30:51,464 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:30:52,465 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:31:07,120 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:31:07,120 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:31:11,948 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:31:11,950 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:31:11,950 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:31:11,951 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:31:12,472 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:31:12,733 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:31:14,473 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:31:25,538 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:31:25,539 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:31:34,140 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:31:34,141 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:31:34,141 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:31:34,142 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:31:34,481 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:31:36,482 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:31:43,059 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:31:43,060 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:31:45,142 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:31:55,655 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:31:55,655 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:31:55,655 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:31:55,655 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:31:56,490 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:31:56,491 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:32:00,958 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:32:00,958 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:32:13,612 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:32:17,416 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:32:17,417 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:32:17,417 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:32:17,418 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:32:17,499 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:32:18,499 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:32:19,101 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:32:19,102 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:32:37,213 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:32:37,214 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:32:39,354 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:32:39,355 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:32:39,355 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:32:39,355 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:32:39,511 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:32:40,511 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:32:44,054 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:32:54,549 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:32:54,549 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:33:01,018 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:33:01,019 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:33:01,019 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:33:01,020 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:33:01,523 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:33:02,523 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:33:12,719 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:33:12,720 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:33:14,752 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:33:22,884 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:33:22,884 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:33:22,884 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:33:22,885 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:33:23,531 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:33:24,531 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:33:31,117 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:33:31,117 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:33:44,819 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:33:44,821 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:33:44,821 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:33:44,823 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:33:44,911 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:33:45,539 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:33:46,539 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:33:49,207 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:33:49,208 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:34:06,378 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:34:06,380 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:34:06,380 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:34:06,380 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:34:06,547 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:34:07,259 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:34:07,260 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:34:08,548 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:34:15,306 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:34:25,635 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:34:25,635 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:34:28,557 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:34:28,558 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:34:28,559 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:34:28,559 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:34:28,559 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:34:30,560 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:34:43,360 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:34:43,360 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:34:45,729 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:34:50,735 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:34:50,735 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:34:50,736 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:34:50,736 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:34:51,571 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:34:52,571 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:35:01,522 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:35:01,523 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:35:12,730 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:35:12,731 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:35:12,731 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:35:12,731 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:35:13,583 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:35:14,583 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:35:16,164 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:35:20,758 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:35:20,758 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:35:34,586 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:35:34,586 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:35:34,587 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:35:34,587 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:35:34,592 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:35:36,593 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:35:38,976 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:35:38,977 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:35:46,567 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:35:56,661 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:35:56,661 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:35:56,874 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:35:58,743 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:35:58,743 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:35:58,744 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:35:59,602 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:36:00,603 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:36:14,212 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:36:14,213 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:36:16,990 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:36:18,969 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:36:18,969 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:36:18,970 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:36:18,970 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:36:19,611 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:36:20,611 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:36:32,655 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:36:32,655 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:36:41,508 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:36:41,509 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:36:41,509 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:36:41,509 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:36:41,622 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:36:42,623 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:36:47,416 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:36:49,764 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:36:49,764 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:37:03,704 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:37:03,705 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:37:03,706 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:37:03,706 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:37:04,631 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:37:04,631 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:37:07,421 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:37:07,421 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:37:21,505 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:37:25,823 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:37:25,823 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:37:25,823 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:37:25,824 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:37:26,643 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:37:26,643 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:37:28,441 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:37:28,442 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:37:46,666 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:37:46,667 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:37:47,775 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:37:48,782 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:37:48,783 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:37:48,784 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:37:48,785 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:37:49,651 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:37:50,652 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:38:03,958 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:38:03,958 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:38:09,553 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:38:09,554 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:38:09,554 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:38:09,554 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:38:09,659 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:38:10,660 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:38:18,714 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:38:22,036 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:38:22,037 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:38:31,629 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:38:31,629 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:38:31,630 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:38:31,630 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:38:31,667 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:38:32,667 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:38:39,109 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:38:39,109 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:38:49,095 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:38:54,100 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:38:54,100 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:38:54,100 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:38:54,101 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:38:54,676 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:38:54,677 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:38:56,757 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:38:56,757 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:39:14,396 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:39:14,397 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:39:16,413 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:39:16,457 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:39:16,457 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:39:16,458 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:39:16,686 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:39:18,686 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:39:19,540 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:39:31,799 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:39:31,799 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:39:38,224 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:39:38,225 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:39:38,225 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:39:38,226 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:39:38,694 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:39:38,695 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:39:49,923 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:39:49,923 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:39:51,950 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:40:00,044 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:40:00,044 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:40:00,045 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:40:00,045 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:40:00,703 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:40:00,704 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:40:08,003 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:40:08,004 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:40:20,390 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:40:21,836 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:40:21,836 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:40:21,836 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:40:21,837 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:40:22,711 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:40:22,712 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:40:26,251 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:40:26,252 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:40:43,641 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:40:43,642 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:40:43,865 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:40:45,657 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:40:45,657 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:40:45,657 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:40:45,719 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:40:46,720 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:40:50,804 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:41:00,659 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:41:00,660 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:41:06,647 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:41:06,648 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:41:06,649 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:41:06,650 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:41:06,726 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:41:08,727 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:41:18,232 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:41:18,233 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:41:21,288 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:41:30,163 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:41:30,164 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:41:30,164 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:41:30,165 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:41:30,736 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:41:30,736 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:41:35,914 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:41:35,915 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:41:51,758 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:41:53,568 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:41:53,569 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:41:53,775 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:41:55,636 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:41:55,636 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:41:55,636 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:41:55,742 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:41:56,747 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:42:11,779 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:42:11,779 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:42:15,668 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:42:15,670 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:42:15,674 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:42:15,674 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:42:15,754 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:42:17,756 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:42:22,169 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:42:29,549 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:42:29,549 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:42:37,968 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:42:37,968 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:42:37,969 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:42:37,969 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:42:38,763 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:42:39,763 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:42:47,832 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:42:47,833 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:42:52,611 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:43:00,123 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:43:00,123 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:43:00,123 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:43:00,124 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:43:00,770 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:43:01,770 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:43:05,827 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:43:05,827 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:43:23,109 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:43:23,560 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:43:23,560 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:43:23,560 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:43:23,561 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:43:23,778 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:43:24,454 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:43:24,454 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:43:25,779 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:43:41,885 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:43:41,885 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:43:46,951 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:43:46,952 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:43:46,952 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:43:46,953 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:43:47,787 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:43:49,787 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:43:53,555 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:43:59,484 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:43:59,484 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:44:10,356 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:44:10,356 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:44:10,357 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:44:10,358 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:44:10,795 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:44:11,795 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:44:17,130 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:44:17,130 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:44:23,998 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:44:34,088 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:44:34,089 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:44:34,089 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:44:34,089 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:44:34,806 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:44:34,986 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:44:34,987 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:44:35,806 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:44:52,714 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:44:52,714 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:44:54,750 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:44:57,695 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:44:57,695 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:44:57,696 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:44:57,696 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:44:57,814 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:44:59,815 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:45:10,445 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:45:10,446 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:45:20,211 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:45:20,212 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:45:20,213 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:45:20,213 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:45:20,823 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:45:21,824 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:45:24,865 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:45:27,909 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:45:27,910 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:45:43,710 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:45:43,710 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:45:43,711 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:45:43,711 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:45:43,832 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:45:45,555 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:45:45,555 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:45:45,832 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:45:55,290 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:46:03,215 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:46:03,216 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:46:06,209 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:46:06,209 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:46:06,210 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:46:06,210 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:46:06,843 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:46:07,844 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:46:21,106 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:46:21,106 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:46:25,681 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:46:28,844 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:46:28,844 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:46:28,850 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:46:28,850 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:46:28,852 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:46:29,852 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:46:38,792 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:46:38,793 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:46:50,891 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:46:50,891 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:46:50,892 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:46:50,892 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:46:51,860 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:46:51,860 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:46:56,120 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:46:56,243 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:46:56,244 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:47:12,814 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:47:12,814 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:47:12,815 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:47:12,815 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:47:12,867 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:47:13,868 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:47:14,555 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:47:14,555 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:47:26,520 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:47:31,946 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:47:31,946 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:47:35,057 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:47:35,058 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:47:35,059 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:47:35,059 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:47:35,875 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:47:37,876 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:47:49,574 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:47:49,575 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:47:56,976 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:47:57,359 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:47:57,360 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:47:57,360 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:47:57,361 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:47:57,884 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:47:59,885 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:48:07,443 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:48:07,443 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:48:19,651 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:48:19,651 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:48:19,652 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:48:19,652 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:48:19,892 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:48:21,893 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:48:25,195 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:48:25,195 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:48:27,390 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:48:41,420 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:48:41,421 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:48:41,421 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:48:41,421 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:48:41,901 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:48:43,149 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:48:43,149 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:48:43,902 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:48:57,814 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:49:01,192 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:49:01,192 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:49:03,228 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:49:03,307 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:49:03,307 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:49:03,308 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:49:03,909 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:49:05,910 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:49:19,552 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:49:19,552 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:49:25,338 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:49:25,339 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:49:25,339 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:49:25,340 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:49:25,918 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:49:27,919 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:49:28,260 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:49:38,022 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:49:38,022 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:49:47,309 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:49:47,310 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:49:47,311 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:49:47,311 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:49:47,926 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:49:49,927 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:49:56,373 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:49:56,373 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:49:58,666 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:50:09,280 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:50:09,280 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:50:09,280 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:50:09,281 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:50:09,935 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:50:11,936 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:50:14,094 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:50:14,095 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:50:29,092 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:50:31,117 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:50:31,118 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:50:31,118 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:50:31,118 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:50:31,933 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:50:31,933 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:50:31,943 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:50:31,944 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:50:49,890 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:50:49,891 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:50:52,832 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:50:52,833 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:50:52,834 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:50:52,834 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:50:52,951 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:50:53,952 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:50:59,516 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:51:07,106 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:51:07,107 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:51:14,690 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:51:14,691 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:51:14,692 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:51:14,692 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:51:14,960 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:51:15,961 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:51:24,898 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:51:24,898 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:51:29,936 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:51:36,753 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:51:36,754 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:51:36,754 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:51:36,754 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:51:36,968 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:51:37,969 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:51:43,169 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:51:43,170 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:51:58,527 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-26 10:51:58,527 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:51:58,527 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:51:58,528 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:51:58,977 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:51:59,977 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:52:00,338 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:52:01,139 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-26 10:52:01,140 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: stop_status
+2024-11-26 10:52:16,615 DEBUG   SenderThread:809704 [sender.py:send():302] send: exit
+2024-11-26 10:52:16,616 INFO    SenderThread:809704 [sender.py:send_exit():438] handling exit code: 255
+2024-11-26 10:52:16,617 INFO    SenderThread:809704 [sender.py:send_exit():440] handling runtime: 1991
+2024-11-26 10:52:16,617 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:16,618 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:52:16,618 INFO    SenderThread:809704 [sender.py:send_exit():446] send defer
+2024-11-26 10:52:16,618 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:16,619 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,619 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 0
+2024-11-26 10:52:16,620 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,620 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 0
+2024-11-26 10:52:16,620 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 1
+2024-11-26 10:52:16,620 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,620 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 1
+2024-11-26 10:52:16,665 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,665 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 1
+2024-11-26 10:52:16,665 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 2
+2024-11-26 10:52:16,665 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,665 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 2
+2024-11-26 10:52:16,665 DEBUG   SenderThread:809704 [sender.py:send():302] send: stats
+2024-11-26 10:52:16,665 DEBUG   SenderThread:809704 [sender.py:send():302] send: history
+2024-11-26 10:52:16,665 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:52:16,666 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:52:16,666 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,666 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 2
+2024-11-26 10:52:16,666 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 3
+2024-11-26 10:52:16,666 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,666 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 3
+2024-11-26 10:52:16,666 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,666 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 3
+2024-11-26 10:52:16,666 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 4
+2024-11-26 10:52:16,666 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,666 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 4
+2024-11-26 10:52:16,666 DEBUG   SenderThread:809704 [sender.py:send():302] send: summary
+2024-11-26 10:52:16,667 INFO    SenderThread:809704 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-26 10:52:16,667 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,667 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 4
+2024-11-26 10:52:16,667 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 5
+2024-11-26 10:52:16,667 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,667 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 5
+2024-11-26 10:52:16,667 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,667 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 5
+2024-11-26 10:52:16,667 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 6
+2024-11-26 10:52:16,667 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:16,667 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 6
+2024-11-26 10:52:16,667 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:16,667 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 6
+2024-11-26 10:52:16,721 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:16,983 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:52:18,578 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 7
+2024-11-26 10:52:18,578 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:18,579 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:18,579 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 7
+2024-11-26 10:52:18,580 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:18,580 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 7
+2024-11-26 10:52:18,580 INFO    SenderThread:809704 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-11-26 10:52:18,682 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:18,984 INFO    Thread-12 :809704 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:52:18,985 INFO    SenderThread:809704 [dir_watcher.py:finish():392] scan: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files
+2024-11-26 10:52:18,985 INFO    SenderThread:809704 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/config.yaml config.yaml
+2024-11-26 10:52:18,986 INFO    SenderThread:809704 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/conda-environment.yaml conda-environment.yaml
+2024-11-26 10:52:18,986 INFO    SenderThread:809704 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-metadata.json wandb-metadata.json
+2024-11-26 10:52:18,986 INFO    SenderThread:809704 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log output.log
+2024-11-26 10:52:18,986 INFO    SenderThread:809704 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/requirements.txt requirements.txt
+2024-11-26 10:52:18,986 INFO    SenderThread:809704 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json wandb-summary.json
+2024-11-26 10:52:18,987 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 8
+2024-11-26 10:52:18,987 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:18,988 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:18,993 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 8
+2024-11-26 10:52:18,999 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:18,999 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 8
+2024-11-26 10:52:18,999 INFO    SenderThread:809704 [file_pusher.py:finish():171] shutting down file pusher
+2024-11-26 10:52:19,110 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,111 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,212 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,213 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,314 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,314 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,416 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,417 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,519 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,519 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,621 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,621 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,723 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,724 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,825 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,826 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:19,928 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:19,928 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,030 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,030 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,132 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,133 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,234 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,235 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,337 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,337 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,439 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,439 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,541 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,541 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,643 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,643 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,745 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,746 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,847 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,848 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:20,950 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:20,950 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,052 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,052 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,153 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,153 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,254 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,254 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,356 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,357 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,458 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,459 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,560 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,561 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,663 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,663 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,765 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,765 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,867 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,867 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:21,969 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:21,969 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,071 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,071 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,173 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,173 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,275 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,275 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,377 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,377 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,479 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,479 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,581 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,581 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,683 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,683 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,785 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,785 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,887 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,887 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:22,989 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:22,989 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,091 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,092 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,172 INFO    Thread-20 :809704 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/requirements.txt
+2024-11-26 10:52:23,187 INFO    Thread-17 :809704 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/config.yaml
+2024-11-26 10:52:23,194 INFO    Thread-21 :809704 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/wandb-summary.json
+2024-11-26 10:52:23,195 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,196 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,294 INFO    Thread-18 :809704 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/conda-environment.yaml
+2024-11-26 10:52:23,298 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,298 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,400 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,400 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,502 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,502 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,604 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,604 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,706 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,707 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,808 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,808 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:23,909 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:23,909 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,011 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,011 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,113 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,113 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,215 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,215 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,317 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,317 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,418 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,419 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,521 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,521 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,623 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,623 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,725 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,725 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,827 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,828 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:24,929 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:24,929 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,031 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,031 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,133 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,133 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,235 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,235 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,337 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,338 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,439 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,439 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,541 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,541 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,643 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,643 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,727 INFO    Thread-19 :809704 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/files/output.log
+2024-11-26 10:52:25,745 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,745 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,846 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:25,847 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:25,928 INFO    Thread-11 :809704 [sender.py:transition_state():459] send defer: 9
+2024-11-26 10:52:25,929 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:25,929 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 9
+2024-11-26 10:52:25,929 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:25,929 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 9
+2024-11-26 10:52:25,948 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:26,886 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 10
+2024-11-26 10:52:26,887 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:26,888 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:26,888 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 10
+2024-11-26 10:52:26,889 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:26,889 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 10
+2024-11-26 10:52:26,889 INFO    SenderThread:809704 [sender.py:transition_state():459] send defer: 11
+2024-11-26 10:52:26,890 DEBUG   SenderThread:809704 [sender.py:send():302] send: final
+2024-11-26 10:52:26,890 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: defer
+2024-11-26 10:52:26,890 INFO    HandlerThread:809704 [handler.py:handle_request_defer():164] handle defer: 11
+2024-11-26 10:52:26,890 DEBUG   SenderThread:809704 [sender.py:send():302] send: footer
+2024-11-26 10:52:26,891 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: defer
+2024-11-26 10:52:26,891 INFO    SenderThread:809704 [sender.py:send_request_defer():455] handle sender defer: 11
+2024-11-26 10:52:26,990 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-26 10:52:26,990 DEBUG   SenderThread:809704 [sender.py:send_request():316] send_request: poll_exit
+2024-11-26 10:52:26,990 INFO    SenderThread:809704 [file_pusher.py:join():176] waiting for file pusher
+2024-11-26 10:52:31,052 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: sampled_history
+2024-11-26 10:52:31,058 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: get_summary
+2024-11-26 10:52:31,059 INFO    MainThread:809704 [wandb_run.py:_footer_history_summary_info():3304] rendering history
+2024-11-26 10:52:31,061 INFO    MainThread:809704 [wandb_run.py:_footer_history_summary_info():3336] rendering summary
+2024-11-26 10:52:31,062 INFO    MainThread:809704 [wandb_run.py:_footer_sync_info():3260] logging synced files
+2024-11-26 10:52:31,063 DEBUG   HandlerThread:809704 [handler.py:handle_request():141] handle_request: shutdown
+2024-11-26 10:52:31,063 INFO    HandlerThread:809704 [handler.py:finish():810] shutting down handler
+2024-11-26 10:52:31,892 INFO    WriterThread:809704 [datastore.py:close():279] close: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241126_101858-vllyv69s/run-vllyv69s.wandb
+2024-11-26 10:52:31,950 INFO    SenderThread:809704 [sender.py:finish():1312] shutting down sender
+2024-11-26 10:52:31,951 INFO    SenderThread:809704 [file_pusher.py:finish():171] shutting down file pusher
+2024-11-26 10:52:31,951 INFO    SenderThread:809704 [file_pusher.py:join():176] waiting for file pusher
+2024-11-26 10:52:32,066 INFO    MainThread:809704 [internal.py:handle_exit():80] Internal process exited

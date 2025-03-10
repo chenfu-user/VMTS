@@ -1,0 +1,240 @@
+2024-11-25 17:51:20,634 INFO    StreamThr :217316 [internal.py:wandb_internal():90] W&B internal server running at pid: 217316, started at: 2024-11-25 17:51:20.634449
+2024-11-25 17:51:20,636 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: status
+2024-11-25 17:51:20,638 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: status
+2024-11-25 17:51:20,639 DEBUG   SenderThread:217316 [sender.py:send():302] send: header
+2024-11-25 17:51:20,639 INFO    WriterThread:217316 [datastore.py:open_for_write():75] open: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/run-oy6zfqru.wandb
+2024-11-25 17:51:20,700 DEBUG   SenderThread:217316 [sender.py:send():302] send: run
+2024-11-25 17:51:24,729 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: check_version
+2024-11-25 17:51:24,738 INFO    SenderThread:217316 [dir_watcher.py:__init__():216] watching files in: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files
+2024-11-25 17:51:24,738 INFO    SenderThread:217316 [sender.py:_start_run_threads():913] run started: oy6zfqru with start time 1732528280.631756
+2024-11-25 17:51:24,739 DEBUG   SenderThread:217316 [sender.py:send():302] send: summary
+2024-11-25 17:51:24,739 INFO    SenderThread:217316 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-25 17:51:24,739 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: check_version
+2024-11-25 17:51:25,741 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/wandb-summary.json
+2024-11-25 17:51:27,198 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: run_start
+2024-11-25 17:51:27,235 DEBUG   HandlerThread:217316 [meta.py:__init__():35] meta init
+2024-11-25 17:51:27,235 DEBUG   HandlerThread:217316 [meta.py:__init__():50] meta init done
+2024-11-25 17:51:27,235 DEBUG   HandlerThread:217316 [meta.py:probe():216] probe
+2024-11-25 17:51:27,244 DEBUG   HandlerThread:217316 [meta.py:_setup_git():206] setup git
+2024-11-25 17:51:27,261 DEBUG   HandlerThread:217316 [meta.py:_setup_git():213] setup git done
+2024-11-25 17:51:27,261 DEBUG   HandlerThread:217316 [meta.py:_save_pip():54] save pip
+2024-11-25 17:51:27,262 DEBUG   HandlerThread:217316 [meta.py:_save_pip():68] save pip done
+2024-11-25 17:51:27,262 DEBUG   HandlerThread:217316 [meta.py:_save_conda():75] save conda
+2024-11-25 17:51:27,739 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/conda-environment.yaml
+2024-11-25 17:51:27,739 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/requirements.txt
+2024-11-25 17:51:31,595 DEBUG   HandlerThread:217316 [meta.py:_save_conda():85] save conda done
+2024-11-25 17:51:31,595 DEBUG   HandlerThread:217316 [meta.py:probe():254] probe done
+2024-11-25 17:51:31,607 DEBUG   SenderThread:217316 [sender.py:send():302] send: files
+2024-11-25 17:51:31,607 INFO    SenderThread:217316 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2024-11-25 17:51:31,609 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-25 17:51:31,609 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: stop_status
+2024-11-25 17:51:31,740 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/conda-environment.yaml
+2024-11-25 17:51:31,740 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/wandb-metadata.json
+2024-11-25 17:51:33,739 DEBUG   SenderThread:217316 [sender.py:send():302] send: telemetry
+2024-11-25 17:51:33,742 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/output.log
+2024-11-25 17:51:35,813 INFO    Thread-16 :217316 [upload_job.py:push():138] Uploaded file /tmp/tmpv_avuf46wandb/ctvt884t-wandb-metadata.json
+2024-11-25 17:51:36,744 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/output.log
+2024-11-25 17:51:49,591 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: stop_status
+2024-11-25 17:51:49,592 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: stop_status
+2024-11-25 17:51:53,750 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/config.yaml
+2024-11-25 17:51:54,385 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: partial_history
+2024-11-25 17:51:54,389 DEBUG   SenderThread:217316 [sender.py:send():302] send: exit
+2024-11-25 17:51:54,389 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:54,389 INFO    SenderThread:217316 [sender.py:send_exit():438] handling exit code: 1
+2024-11-25 17:51:54,389 INFO    SenderThread:217316 [sender.py:send_exit():440] handling runtime: 27
+2024-11-25 17:51:54,390 INFO    SenderThread:217316 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-25 17:51:54,390 INFO    SenderThread:217316 [sender.py:send_exit():446] send defer
+2024-11-25 17:51:54,390 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:54,390 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,390 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 0
+2024-11-25 17:51:54,390 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,390 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 0
+2024-11-25 17:51:54,390 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 1
+2024-11-25 17:51:54,390 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,390 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 1
+2024-11-25 17:51:54,439 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,439 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 1
+2024-11-25 17:51:54,439 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 2
+2024-11-25 17:51:54,439 DEBUG   SenderThread:217316 [sender.py:send():302] send: stats
+2024-11-25 17:51:54,439 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,439 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 2
+2024-11-25 17:51:54,440 DEBUG   SenderThread:217316 [sender.py:send():302] send: history
+2024-11-25 17:51:54,440 DEBUG   SenderThread:217316 [sender.py:send():302] send: summary
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-25 17:51:54,441 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 2
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 3
+2024-11-25 17:51:54,441 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,441 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 3
+2024-11-25 17:51:54,441 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 3
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 4
+2024-11-25 17:51:54,441 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,441 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 4
+2024-11-25 17:51:54,441 DEBUG   SenderThread:217316 [sender.py:send():302] send: summary
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-11-25 17:51:54,441 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 4
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 5
+2024-11-25 17:51:54,441 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,441 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 5
+2024-11-25 17:51:54,441 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 5
+2024-11-25 17:51:54,441 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 6
+2024-11-25 17:51:54,442 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:54,442 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 6
+2024-11-25 17:51:54,442 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:54,442 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 6
+2024-11-25 17:51:54,491 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:54,751 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/wandb-summary.json
+2024-11-25 17:51:56,394 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 7
+2024-11-25 17:51:56,394 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:56,399 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:56,399 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 7
+2024-11-25 17:51:56,400 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:56,400 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 7
+2024-11-25 17:51:56,400 INFO    SenderThread:217316 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-11-25 17:51:56,500 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:56,751 INFO    Thread-12 :217316 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/output.log
+2024-11-25 17:51:56,752 INFO    SenderThread:217316 [dir_watcher.py:finish():392] scan: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files
+2024-11-25 17:51:56,752 INFO    SenderThread:217316 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/config.yaml config.yaml
+2024-11-25 17:51:56,753 INFO    SenderThread:217316 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/conda-environment.yaml conda-environment.yaml
+2024-11-25 17:51:56,753 INFO    SenderThread:217316 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/wandb-metadata.json wandb-metadata.json
+2024-11-25 17:51:56,753 INFO    SenderThread:217316 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/output.log output.log
+2024-11-25 17:51:56,753 INFO    SenderThread:217316 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/requirements.txt requirements.txt
+2024-11-25 17:51:56,758 INFO    SenderThread:217316 [dir_watcher.py:finish():406] scan save: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/wandb-summary.json wandb-summary.json
+2024-11-25 17:51:56,759 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 8
+2024-11-25 17:51:56,759 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:56,761 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:51:56,766 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 8
+2024-11-25 17:51:56,767 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:51:56,767 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 8
+2024-11-25 17:51:56,767 INFO    SenderThread:217316 [file_pusher.py:finish():171] shutting down file pusher
+2024-11-25 17:51:56,868 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:56,868 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:56,970 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:56,970 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,072 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,073 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,174 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,175 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,276 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,276 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,378 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,378 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,480 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,480 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,581 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,582 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,683 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,684 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,785 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,785 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,887 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,887 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:57,989 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:57,989 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,091 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,091 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,193 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,193 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,295 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,295 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,397 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,397 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,499 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,499 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,601 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,602 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,704 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,704 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,806 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,806 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:58,907 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:58,908 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,010 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,010 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,112 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,112 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,214 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,215 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,316 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,317 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,419 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,419 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,521 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,521 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,623 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,624 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,726 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,726 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,828 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,829 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:51:59,930 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:51:59,931 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,032 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,033 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,135 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,135 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,237 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,237 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,339 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,339 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,441 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,441 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,543 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,543 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,645 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,645 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,747 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,747 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,849 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,849 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,919 INFO    Thread-18 :217316 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/conda-environment.yaml
+2024-11-25 17:52:00,934 INFO    Thread-19 :217316 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/output.log
+2024-11-25 17:52:00,937 INFO    Thread-17 :217316 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/config.yaml
+2024-11-25 17:52:00,944 INFO    Thread-21 :217316 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/wandb-summary.json
+2024-11-25 17:52:00,951 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:00,952 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:00,984 INFO    Thread-20 :217316 [upload_job.py:push():138] Uploaded file /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/files/requirements.txt
+2024-11-25 17:52:01,053 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:01,054 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:01,155 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:01,156 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:01,185 INFO    Thread-11 :217316 [sender.py:transition_state():459] send defer: 9
+2024-11-25 17:52:01,186 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:52:01,186 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 9
+2024-11-25 17:52:01,186 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:52:01,186 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 9
+2024-11-25 17:52:01,257 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:01,510 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 10
+2024-11-25 17:52:01,511 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:01,512 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:52:01,512 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 10
+2024-11-25 17:52:01,513 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:52:01,513 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 10
+2024-11-25 17:52:01,513 INFO    SenderThread:217316 [sender.py:transition_state():459] send defer: 11
+2024-11-25 17:52:01,514 DEBUG   SenderThread:217316 [sender.py:send():302] send: final
+2024-11-25 17:52:01,515 DEBUG   SenderThread:217316 [sender.py:send():302] send: footer
+2024-11-25 17:52:01,515 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: defer
+2024-11-25 17:52:01,516 INFO    HandlerThread:217316 [handler.py:handle_request_defer():164] handle defer: 11
+2024-11-25 17:52:01,516 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: defer
+2024-11-25 17:52:01,516 INFO    SenderThread:217316 [sender.py:send_request_defer():455] handle sender defer: 11
+2024-11-25 17:52:01,613 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:01,613 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:01,614 INFO    SenderThread:217316 [file_pusher.py:join():176] waiting for file pusher
+2024-11-25 17:52:06,713 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: poll_exit
+2024-11-25 17:52:08,576 DEBUG   SenderThread:217316 [sender.py:send_request():316] send_request: poll_exit
+2024-11-25 17:52:08,577 INFO    SenderThread:217316 [file_pusher.py:join():176] waiting for file pusher
+2024-11-25 17:52:08,680 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: sampled_history
+2024-11-25 17:52:08,682 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: get_summary
+2024-11-25 17:52:08,683 INFO    MainThread:217316 [wandb_run.py:_footer_history_summary_info():3304] rendering history
+2024-11-25 17:52:08,685 INFO    MainThread:217316 [wandb_run.py:_footer_history_summary_info():3336] rendering summary
+2024-11-25 17:52:08,687 INFO    MainThread:217316 [wandb_run.py:_footer_sync_info():3260] logging synced files
+2024-11-25 17:52:08,688 DEBUG   HandlerThread:217316 [handler.py:handle_request():141] handle_request: shutdown
+2024-11-25 17:52:08,688 INFO    HandlerThread:217316 [handler.py:finish():810] shutting down handler
+2024-11-25 17:52:09,516 INFO    WriterThread:217316 [datastore.py:close():279] close: /home/chenfu/isaac gym/pointfoot-legged-gym/legged_gym/wandb/run-20241125_175120-oy6zfqru/run-oy6zfqru.wandb
+2024-11-25 17:52:09,578 INFO    SenderThread:217316 [sender.py:finish():1312] shutting down sender
+2024-11-25 17:52:09,578 INFO    SenderThread:217316 [file_pusher.py:finish():171] shutting down file pusher
+2024-11-25 17:52:09,578 INFO    SenderThread:217316 [file_pusher.py:join():176] waiting for file pusher
+2024-11-25 17:52:09,691 INFO    MainThread:217316 [internal.py:handle_exit():80] Internal process exited

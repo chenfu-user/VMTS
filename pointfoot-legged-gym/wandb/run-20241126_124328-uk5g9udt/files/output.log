@@ -1,0 +1,20 @@
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov26_10-58-01_/model_22400.pt
+Exported policy as jit script to:  /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/exported/policies
+torch.Size([1, 155])
+tensor([[[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         ...,
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]]], device='cuda:0')
+Traceback (most recent call last):
+  File "legged_gym/scripts/play.py", line 181, in <module>
+    play(args)
+  File "legged_gym/scripts/play.py", line 129, in play
+    depth_latent = depth_encoder(infos["depth"], obs)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/modules/actor_critic_vae.py", line 477, in forward
+    depth_latent = self.combination_mlp(torch.cat((depth_image, extra_input), dim=-1))
+RuntimeError: Tensors must have same number of dimensions: got 2 and 3

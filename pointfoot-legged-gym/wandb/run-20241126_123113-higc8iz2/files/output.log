@@ -1,0 +1,8 @@
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov26_10-58-01_/model_22400.pt
+Exported policy as jit script to:  /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/exported/policies
+Traceback (most recent call last):
+  File "legged_gym/scripts/play.py", line 176, in <module>
+    play(args)
+  File "legged_gym/scripts/play.py", line 125, in play
+    actions = policy_depth(combined_obs.detach(), infos["depth"].detach())
+AttributeError: 'NoneType' object has no attribute 'detach'

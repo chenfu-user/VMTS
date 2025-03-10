@@ -1,0 +1,59 @@
+
+Loading model from: /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov25_17-50-01_/model_0.pt
+################################################################################
+                     [1m Learning iteration 0/100000 
+                       Computation: 270 steps/s (collection: 22.503s, learning 0.245s)
+             Mean action noise std: 1.00
+               Mean reward (total): -2.92
+               Mean episode length: 42.14
+                Depth encoder loss: 0.0000
+                  Depth actor loss: 0.1497
+                        coder_loss: 0.0000
+--------------------------------------------------------------------------------
+  Mean episode rew_above_vel_range: -0.0209
+      Mean episode rew_action_rate: -0.0000
+       Mean episode rew_ang_vel_xy: -0.0116
+      Mean episode rew_base_height: -0.0271
+        Mean episode rew_collision: -0.1106
+          Mean episode rew_dof_acc: -0.0029
+    Mean episode rew_feet_air_time: -0.0135
+ Mean episode rew_feet_alignment_x: -0.0003
+ Mean episode rew_feet_alignment_y: -0.0004
+Mean episode rew_feet_contact_forces: -0.0004
+Mean episode rew_feet_contact_number: -0.0000
+    Mean episode rew_feet_distance: -0.0180
+        Mean episode rew_lin_vel_z: -0.0045
+           Mean episode rew_no_fly: -0.0231
+      Mean episode rew_orientation: -0.0677
+         Mean episode rew_survival: 0.0679
+Mean episode rew_target_feet_height: -0.0066
+    Mean episode rew_torque_limits: -0.0000
+          Mean episode rew_torques: -0.0007
+ Mean episode rew_tracking_ang_vel: 0.0410
+Mean episode rew_tracking_base_height: 0.0246
+ Mean episode rew_tracking_lin_vel: 0.0636
+Mean episode rew_tracking_orientation: 0.0262
+Mean episode rew_unbalance_feet_air_time: -0.0135
+Mean episode rew_unbalance_feet_height: -0.0005
+        Mean episode terrain_level: 1.9126
+--------------------------------------------------------------------------------
+                   Total timesteps: 6144
+                    Iteration time: 22.75s
+                        Total time: 22.75s
+                               ETA: 37914 mins 23.2 s
+Traceback (most recent call last):
+  File "scripts/train.py", line 47, in <module>
+    train(args)
+  File "scripts/train.py", line 43, in train
+    ppo_runner.learn(num_learning_iterations=train_cfg.runner.max_iterations, init_at_random_ep_len=True)
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/runners/on_policy_runner.py", line 318, in learn_vision
+    self.save(os.path.join(self.log_dir, 'model_{}.pt'.format(it)))
+  File "/home/chenfu/isaac gym/rsl_rl/rsl_rl/runners/on_policy_runner.py", line 504, in save
+    torch.save(saved_dict, path)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/serialization.py", line 422, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/serialization.py", line 309, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/chenfu/anaconda3/envs/issac_env/lib/python3.8/site-packages/torch/serialization.py", line 287, in __init__
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory /home/chenfu/isaac gym/pointfoot-legged-gym/logs/pointfoot_rough/Nov25_17-51-17_ does not exist.

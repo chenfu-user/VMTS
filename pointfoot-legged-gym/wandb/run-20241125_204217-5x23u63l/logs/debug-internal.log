@@ -1,0 +1,8 @@
+2024-11-25 20:42:17,636 INFO    StreamThr :323357 [internal.py:wandb_internal():90] W&B internal server running at pid: 323357, started at: 2024-11-25 20:42:17.636698
+2024-11-25 20:42:17,637 DEBUG   HandlerThread:323357 [handler.py:handle_request():141] handle_request: status
+2024-11-25 20:42:17,638 DEBUG   SenderThread:323357 [sender.py:send_request():316] send_request: status
+2024-11-25 20:42:17,638 DEBUG   SenderThread:323357 [sender.py:send():302] send: header
+2024-11-25 20:42:17,638 INFO    WriterThread:323357 [datastore.py:open_for_write():75] open: /home/chenfu/isaac gym/pointfoot-legged-gym/wandb/run-20241125_204217-5x23u63l/run-5x23u63l.wandb
+2024-11-25 20:42:17,671 DEBUG   SenderThread:323357 [sender.py:send():302] send: run
+2024-11-25 20:42:20,640 INFO    MainThread:323357 [internal.py:handle_exit():80] Internal process exited
+2024-11-25 20:42:20,640 WARNING MsgRouterThr:323357 [router.py:message_loop():73] EOFError seen in message_loop

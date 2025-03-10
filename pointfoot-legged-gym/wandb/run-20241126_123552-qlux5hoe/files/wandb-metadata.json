@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.15.0-125-generic-x86_64-with-glibc2.10",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-11-26T04:35:59.480320",
+    "startedAt": "2024-11-26T04:35:52.864707",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4070",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [
+        "--task=pointfoot_rough"
+    ],
+    "state": "running",
+    "program": "legged_gym/scripts/play.py",
+    "codePath": "legged_gym/scripts/play.py",
+    "git": {
+        "remote": "https://github.com/limxdynamics/pointfoot-legged-gym.git",
+        "commit": "f66c062fb53dd1a1198072632b91e8a5bdf354f7"
+    },
+    "email": "2741969292@qq.com",
+    "root": "/home/chenfu/isaac gym/pointfoot-legged-gym",
+    "host": "chenfu",
+    "username": "chenfu",
+    "executable": "/home/chenfu/anaconda3/envs/issac_env/bin/python"
+}

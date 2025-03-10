@@ -1,0 +1,25 @@
+2024-11-26 12:30:19,282 INFO    MainThread:889802 [wandb_setup.py:_flush():76] Configure stats pid to 889802
+2024-11-26 12:30:19,282 INFO    MainThread:889802 [wandb_setup.py:_flush():76] Loading settings from /home/chenfu/.config/wandb/settings
+2024-11-26 12:30:19,282 INFO    MainThread:889802 [wandb_setup.py:_flush():76] Loading settings from /home/chenfu/isaac gym/pointfoot-legged-gym/wandb/settings
+2024-11-26 12:30:19,282 INFO    MainThread:889802 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2024-11-26 12:30:19,282 INFO    MainThread:889802 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'legged_gym/scripts/play.py', 'program': 'legged_gym/scripts/play.py'}
+2024-11-26 12:30:19,282 INFO    MainThread:889802 [wandb_init.py:_log_setup():461] Logging user logs to /home/chenfu/isaac gym/pointfoot-legged-gym/wandb/run-20241126_123019-541v006s/logs/debug.log
+2024-11-26 12:30:19,283 INFO    MainThread:889802 [wandb_init.py:_log_setup():462] Logging internal logs to /home/chenfu/isaac gym/pointfoot-legged-gym/wandb/run-20241126_123019-541v006s/logs/debug-internal.log
+2024-11-26 12:30:19,283 INFO    MainThread:889802 [wandb_init.py:init():495] calling init triggers
+2024-11-26 12:30:19,283 INFO    MainThread:889802 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2024-11-26 12:30:19,283 INFO    MainThread:889802 [wandb_init.py:init():548] starting backend
+2024-11-26 12:30:19,283 INFO    MainThread:889802 [wandb_init.py:init():552] setting up manager
+2024-11-26 12:30:19,285 INFO    MainThread:889802 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-26 12:30:19,286 INFO    MainThread:889802 [wandb_init.py:init():558] backend started and connected
+2024-11-26 12:30:19,288 INFO    MainThread:889802 [wandb_init.py:init():636] updated telemetry
+2024-11-26 12:30:19,347 INFO    MainThread:889802 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2024-11-26 12:30:21,754 INFO    MainThread:889802 [wandb_run.py:_on_init():1981] communicating current version
+2024-11-26 12:30:24,791 INFO    MainThread:889802 [wandb_run.py:_on_init():1985] got version response 
+2024-11-26 12:30:24,791 INFO    MainThread:889802 [wandb_init.py:init():700] starting run threads in backend
+2024-11-26 12:30:29,202 INFO    MainThread:889802 [wandb_run.py:_console_start():1961] atexit reg
+2024-11-26 12:30:29,202 INFO    MainThread:889802 [wandb_run.py:_redirect():1819] redirect: SettingsConsole.WRAP_RAW
+2024-11-26 12:30:29,203 INFO    MainThread:889802 [wandb_run.py:_redirect():1884] Wrapping output streams.
+2024-11-26 12:30:29,203 INFO    MainThread:889802 [wandb_run.py:_redirect():1906] Redirects installed.
+2024-11-26 12:30:29,203 INFO    MainThread:889802 [wandb_init.py:init():732] run started, returning control to user process
+2024-11-26 12:30:45,652 WARNING MsgRouterThr:889802 [router.py:message_loop():76] message_loop has been closed
